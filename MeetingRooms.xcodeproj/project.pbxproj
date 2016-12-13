@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD5D179C1DABFBDA00BFA1B0 /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D179B1DABFBDA00BFA1B0 /* DataCenter.swift */; };
+		BD5D179E1DABFE7000BFA1B0 /* BranchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D179D1DABFE7000BFA1B0 /* BranchListViewController.swift */; };
+		BD5D17A01DABFE9800BFA1B0 /* ServiceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D179F1DABFE9800BFA1B0 /* ServiceListViewController.swift */; };
+		BD5D17A41DACF86F00BFA1B0 /* RoomInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D17A31DACF86F00BFA1B0 /* RoomInfoViewController.swift */; };
+		BD5D17A81DACFCDB00BFA1B0 /* ReserveRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D17A71DACFCDB00BFA1B0 /* ReserveRoomViewController.swift */; };
+		BD5D17AC1DAD0D3800BFA1B0 /* ReservationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D17A51DACFC8D00BFA1B0 /* ReservationListViewController.swift */; };
+		BD5D17AE1DAD119D00BFA1B0 /* TintColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D17AD1DAD119D00BFA1B0 /* TintColorViewController.swift */; };
+		BD5D17B01DAD16D800BFA1B0 /* EquipmentsDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD5D17AF1DAD16D800BFA1B0 /* EquipmentsDefault.plist */; };
+		BD5D17B21DAD178100BFA1B0 /* EquipmentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5D17B11DAD178100BFA1B0 /* EquipmentsListViewController.swift */; };
+		BD839D061D999D4B00297D80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD839D051D999D4B00297D80 /* AppDelegate.swift */; };
+		BD839D081D999D4B00297D80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD839D071D999D4B00297D80 /* ViewController.swift */; };
+		BD839D0B1D999D4B00297D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD839D091D999D4B00297D80 /* Main.storyboard */; };
+		BD839D0D1D999D4B00297D80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD839D0C1D999D4B00297D80 /* Assets.xcassets */; };
+		BD839D101D999D4B00297D80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD839D0E1D999D4B00297D80 /* LaunchScreen.storyboard */; };
+		BD839D1A1D999E3F00297D80 /* MeetingRoomListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD839D191D999E3F00297D80 /* MeetingRoomListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD5D179B1DABFBDA00BFA1B0 /* DataCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
+		BD5D179D1DABFE7000BFA1B0 /* BranchListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchListViewController.swift; sourceTree = "<group>"; };
+		BD5D179F1DABFE9800BFA1B0 /* ServiceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceListViewController.swift; sourceTree = "<group>"; };
+		BD5D17A31DACF86F00BFA1B0 /* RoomInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomInfoViewController.swift; sourceTree = "<group>"; };
+		BD5D17A51DACFC8D00BFA1B0 /* ReservationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationListViewController.swift; sourceTree = "<group>"; };
+		BD5D17A71DACFCDB00BFA1B0 /* ReserveRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReserveRoomViewController.swift; sourceTree = "<group>"; };
+		BD5D17AD1DAD119D00BFA1B0 /* TintColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TintColorViewController.swift; sourceTree = "<group>"; };
+		BD5D17AF1DAD16D800BFA1B0 /* EquipmentsDefault.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EquipmentsDefault.plist; sourceTree = "<group>"; };
+		BD5D17B11DAD178100BFA1B0 /* EquipmentsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquipmentsListViewController.swift; sourceTree = "<group>"; };
+		BD839D021D999D4B00297D80 /* MeetingRooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingRooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD839D051D999D4B00297D80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD839D071D999D4B00297D80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD839D0A1D999D4B00297D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD839D0C1D999D4B00297D80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD839D0F1D999D4B00297D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD839D111D999D4B00297D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD839D191D999E3F00297D80 /* MeetingRoomListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeetingRoomListViewController.swift; path = ../MeetingRoomListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD839CFF1D999D4B00297D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD839CF91D999D4B00297D80 = {
+			isa = PBXGroup;
+			children = (
+				BD839D041D999D4B00297D80 /* MeetingRooms */,
+				BD839D031D999D4B00297D80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD839D031D999D4B00297D80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD839D021D999D4B00297D80 /* MeetingRooms.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD839D041D999D4B00297D80 /* MeetingRooms */ = {
+			isa = PBXGroup;
+			children = (
+				BD839D051D999D4B00297D80 /* AppDelegate.swift */,
+				BD839D071D999D4B00297D80 /* ViewController.swift */,
+				BD839D091D999D4B00297D80 /* Main.storyboard */,
+				BD5D17AF1DAD16D800BFA1B0 /* EquipmentsDefault.plist */,
+				BD5D17B11DAD178100BFA1B0 /* EquipmentsListViewController.swift */,
+				BD5D17AD1DAD119D00BFA1B0 /* TintColorViewController.swift */,
+				BD5D17A71DACFCDB00BFA1B0 /* ReserveRoomViewController.swift */,
+				BD5D17A51DACFC8D00BFA1B0 /* ReservationListViewController.swift */,
+				BD5D179B1DABFBDA00BFA1B0 /* DataCenter.swift */,
+				BD5D179D1DABFE7000BFA1B0 /* BranchListViewController.swift */,
+				BD5D179F1DABFE9800BFA1B0 /* ServiceListViewController.swift */,
+				BD839D191D999E3F00297D80 /* MeetingRoomListViewController.swift */,
+				BD5D17A31DACF86F00BFA1B0 /* RoomInfoViewController.swift */,
+				BD839D0C1D999D4B00297D80 /* Assets.xcassets */,
+				BD839D0E1D999D4B00297D80 /* LaunchScreen.storyboard */,
+				BD839D111D999D4B00297D80 /* Info.plist */,
+			);
+			path = MeetingRooms;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD839D011D999D4B00297D80 /* MeetingRooms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD839D141D999D4B00297D80 /* Build configuration list for PBXNativeTarget "MeetingRooms" */;
+			buildPhases = (
+				BD839CFE1D999D4B00297D80 /* Sources */,
+				BD839CFF1D999D4B00297D80 /* Frameworks */,
+				BD839D001D999D4B00297D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingRooms;
+			productName = MeetingRooms;
+			productReference = BD839D021D999D4B00297D80 /* MeetingRooms.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD839CFA1D999D4B00297D80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = J.Style;
+				TargetAttributes = {
+					BD839D011D999D4B00297D80 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = BD839CFD1D999D4B00297D80 /* Build configuration list for PBXProject "MeetingRooms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD839CF91D999D4B00297D80;
+			productRefGroup = BD839D031D999D4B00297D80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD839D011D999D4B00297D80 /* MeetingRooms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD839D001D999D4B00297D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD839D101D999D4B00297D80 /* LaunchScreen.storyboard in Resources */,
+				BD5D17B01DAD16D800BFA1B0 /* EquipmentsDefault.plist in Resources */,
+				BD839D0D1D999D4B00297D80 /* Assets.xcassets in Resources */,
+				BD839D0B1D999D4B00297D80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD839CFE1D999D4B00297D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5D17A41DACF86F00BFA1B0 /* RoomInfoViewController.swift in Sources */,
+				BD839D081D999D4B00297D80 /* ViewController.swift in Sources */,
+				BD839D061D999D4B00297D80 /* AppDelegate.swift in Sources */,
+				BD5D17B21DAD178100BFA1B0 /* EquipmentsListViewController.swift in Sources */,
+				BD5D179C1DABFBDA00BFA1B0 /* DataCenter.swift in Sources */,
+				BD5D17AC1DAD0D3800BFA1B0 /* ReservationListViewController.swift in Sources */,
+				BD5D179E1DABFE7000BFA1B0 /* BranchListViewController.swift in Sources */,
+				BD5D17A01DABFE9800BFA1B0 /* ServiceListViewController.swift in Sources */,
+				BD839D1A1D999E3F00297D80 /* MeetingRoomListViewController.swift in Sources */,
+				BD5D17A81DACFCDB00BFA1B0 /* ReserveRoomViewController.swift in Sources */,
+				BD5D17AE1DAD119D00BFA1B0 /* TintColorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD839D091D999D4B00297D80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD839D0A1D999D4B00297D80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD839D0E1D999D4B00297D80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD839D0F1D999D4B00297D80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD839D121D999D4B00297D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD839D131D999D4B00297D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD839D151D999D4B00297D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeetingRooms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jstyle.MeetingRooms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BD839D161D999D4B00297D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeetingRooms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jstyle.MeetingRooms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD839CFD1D999D4B00297D80 /* Build configuration list for PBXProject "MeetingRooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD839D121D999D4B00297D80 /* Debug */,
+				BD839D131D999D4B00297D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD839D141D999D4B00297D80 /* Build configuration list for PBXNativeTarget "MeetingRooms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD839D151D999D4B00297D80 /* Debug */,
+				BD839D161D999D4B00297D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD839CFA1D999D4B00297D80 /* Project object */;
+}
